@@ -1,7 +1,5 @@
 .garbage, .recycle, .compost{
   position: absolute;
-  background-color: #fffff;
-  border: 1px solid #d3d3d3;
   text-align: center;
   top:15px;
   left:400px;
@@ -34,13 +32,13 @@
 }
 
 #trashBin:hover {
-  content: url("https://github.com/Tedtot/Tedtot.github.io/garbagecanopen.png");
+  content: url("Tedtot.github.io/garbagecanopen.png");
 }
 #recycleBin:hover {
-  content: url("https://github.com/Tedtot/Tedtot.github.io/garbagecanopen.png");
+  content: url("Tedtot.github.io/garbagecanopen.png");
 }
 #compostBin:hover {
-  content: url("https://github.com/Tedtot/Tedtot.github.io/garbagecanopen.png");
+  content: url("Tedtot.github.io/garbagecanopen.png");
 }
 
 body {
