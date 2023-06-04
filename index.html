@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>HackPNW Main Page</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Temp</a></li>
-    		</ul>
-		</nav>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pollution in Seattle</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <nav>
+      <ul id="menu">
+        <li><a href="#" onclick="activateMenuItem(0)">Home</a></li>
+        <li><a href="#" onclick="activateMenuItem(1)">About</a></li>
+        <li><a href="#" onclick="activateMenuItem(2)">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="garbage">
+      <div id="mydivheader">garbage</div>
+    </div>
+    <div class="recycle">
+      <div id="mydivheader">recycle</div>
+    </div>
+    
+    <div class="clear"> </div>
+    
+    <div id="trashBin"> trash</div>
+    <div id="recycleBin"> recycle</div>
+    
+    <div id="points"> Points: 0</div>
+    <div id="timer"> Time: 0.0</div>
+    
+    <button id=gamebutton onclick="startGame()">Start Game</button>
+    <script src="/script.js"></script>
+  </body>
 </html>
-
