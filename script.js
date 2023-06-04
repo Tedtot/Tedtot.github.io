@@ -79,10 +79,11 @@ function startGame() {
       ui = compostUI[Math.floor(Math.random() * compostUI.length)];
       compost[0].parentNode.appendChild(clone);
     }
-
+    
     clone.style.top = Math.round(Math.random() * document.body.offsetHeight + 250) + 'px';
     clone.style.left = Math.round(Math.random() * document.body.offsetWidth) + 'px';
     clone.style.opacity = 1;
+    
     clone.src = ui;
     dragElement(clone);
   }
