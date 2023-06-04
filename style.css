@@ -24,6 +24,7 @@
 }
 
 body {
+  cursor: default;
   background-color: #f7f7f7;
   font-family: 'Arial', sans-serif;
 }
