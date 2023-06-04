@@ -246,44 +246,26 @@ a:active { text-decoration: none; }
 }
 
 .card1{
-
-    background-image: url("/trash.jpg");
-
-
-
-
+    background-image: url("https://tedtot.github.io/trash.jpg");
 
 }
 
-
-
-
 .card2{
 
-    background-image: url("/bird.jpg");
-
-   
+    background-image: url("https://tedtot.github.io/bird.jpg");  
 
 }
 
 .card3{
 
-    background-image: url("/smoke.jpg");
-
-   
+    background-image: url("https://tedtot.github.io/smoke.jpg");
 
 }
 
 .card4{
 
-    background-image: url("/polarbear.jpg");
-
-   
-
+    background-image: url("https://tedtot.github.io/polarbear.jpg");
 }
-
-
-
 
 .card:hover{
 
