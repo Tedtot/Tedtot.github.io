@@ -247,7 +247,7 @@ a:active { text-decoration: none; }
 
 .card1{
 
-    background-image: url(/trash.jpg);
+    background-image: url("/trash.jpg");
 
 
 
@@ -260,7 +260,7 @@ a:active { text-decoration: none; }
 
 .card2{
 
-    background-image: url(/bird.jpg);
+    background-image: url("/bird.jpg");
 
    
 
@@ -268,7 +268,7 @@ a:active { text-decoration: none; }
 
 .card3{
 
-    background-image: url(/smoke.jpg);
+    background-image: url("/smoke.jpg");
 
    
 
@@ -276,7 +276,7 @@ a:active { text-decoration: none; }
 
 .card4{
 
-    background-image: url(/polarbear.jpg);
+    background-image: url("/polarbear.jpg");
 
    
 
