@@ -31,12 +31,16 @@ var gameButton = document.getElementById("gamebutton");
 var bins = [document.getElementById("trashBin"), document.getElementById("recycleBin"), 
             document.getElementById("compostBin")];
 var pointText = document.getElementById("points");
+var highscore = document.getElementById("highscore");
+var currentscore = document.getElementById("currentscore");
 var timer = document.getElementById("timer");
 var gameActive = false;
 
 var a;
 var timeout;
 var points;
+
+var score = 0;
 
 function startGame() {
   
@@ -170,8 +174,19 @@ function changePoints(amount) {
 }
 
 function endGame(isFinished) {
-  if (isFinished) timer.innerHTML = "Time: " + (Date.now() - a) / 1000;
-
+  if (isFinished) {
+    var time = (Date.now() - a) / 1000;
+    var newScore = Math.round(points/time * 100) / 10;
+    
+    timer.innerHTML = "Time: " + time;
+    currentscore.innerHTML = "Score: " + newScore;
+    
+    if (newScore > score) {
+      highscore.innerHTML = "Highscore: " + newScore;
+      score = newScore;
+    }
+  }
+  
   clearInterval(timeout);
   gameButton.innerHTML = "Start Game";
   gameActive = false;
