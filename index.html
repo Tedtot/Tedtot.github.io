@@ -10,26 +10,39 @@
     <nav>
       <ul id="menu">
         <li><a href="#" onclick="activateMenuItem(0)">Home</a></li>
-        <li><a href="#" onclick="activateMenuItem(1)">About</a></li>
-        <li><a href="#" onclick="activateMenuItem(2)">Contact</a></li>
+        <li><a href="#" onclick="activateMenuItem(1)">Play the Game</a></li>
+        <li><a href="#" onclick="activateMenuItem(2)">Take the Quiz</a></li>
       </ul>
     </nav>
     <div class="garbage">
-      <div id="mydivheader">garbage</div>
+      <div id="mydivheader"><img src="" 
+                                  width="60" height="60" alt="g"></div>
     </div>
     <div class="recycle">
-      <div id="mydivheader">recycle</div>
+      <div id="mydivheader"><img src="" 
+                                  width="60" height="60" alt="r"></div>
     </div>
-    
-    <div class="clear"> </div>
-    
-    <div id="trashBin"> trash</div>
-    <div id="recycleBin"> recycle</div>
+    <div class="compost">
+      <div id="mydivheader"><img src="" 
+                                  width="60" height="60" alt="c"></div>
+    </div>
     
     <div id="points"> Points: 0</div>
     <div id="timer"> Time: 0.0</div>
-    
     <button id=gamebutton onclick="startGame()">Start Game</button>
+
+    <div class="clear"> </div>
+    <div id="binHolders">
+      <ul>
+      <li><div id="trashBin"><img src="https://github.com/Tedtot/Tedtot.github.io/garbagecan.png" 
+                                  width="60" height="60" alt="g"></div></li>
+      <li><div id="recycleBin"><img src="https://github.com/Tedtot/Tedtot.github.io/garbagecan.png" 
+                                  width="60" height="60" alt="r"></div></li>
+      <li><div id="compostBin"><img src="https://github.com/Tedtot/Tedtot.github.io/garbagecan.png" 
+                                  width="60" height="60" alt="c"></div></li>
+      </ul>
+    </div>
+    
     <script src="/script.js"></script>
   </body>
 </html>
