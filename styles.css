@@ -21,7 +21,7 @@
 
     height: 100vh;
 
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("images/bellevue.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/bellevue.jpg");
 
     background-position: center;
 
@@ -247,7 +247,7 @@ a:active { text-decoration: none; }
 
 .card1{
 
-    background-image: url(images/trash.jpg);
+    background-image: url(/trash.jpg);
 
 
 
@@ -260,7 +260,7 @@ a:active { text-decoration: none; }
 
 .card2{
 
-    background-image: url(images/bird.jpg);
+    background-image: url(/bird.jpg);
 
    
 
@@ -268,7 +268,7 @@ a:active { text-decoration: none; }
 
 .card3{
 
-    background-image: url(images/smoke.jpg);
+    background-image: url(/smoke.jpg);
 
    
 
@@ -276,7 +276,7 @@ a:active { text-decoration: none; }
 
 .card4{
 
-    background-image: url(images/polar\ bear.jpg);
+    background-image: url(/polarbear.jpg);
 
    
 
