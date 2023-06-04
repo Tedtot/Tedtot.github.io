@@ -31,6 +31,7 @@
   display: inline-block; 
 }
 
+
 body {
   cursor: default;
   background-color: #f5f5f5;
@@ -72,7 +73,7 @@ nav {
 
 .clear { clear: both; }
 
-#points, #timer, #gamebutton {
+#points, #timer, #gamebutton, #highscore, #currentscore {
     line-height: 25px;
 }
 
