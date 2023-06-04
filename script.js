@@ -196,11 +196,3 @@ function displayTimer() {
   time = Math.round(((Date.now() - a) / 1000) * 10) / 10;
   timer.innerHTML = "Time: " + time;
 }
-
-function activateMenuItem(index) {
-  var menuItems = document.querySelectorAll('#menu li a');
-  for (var i = 0; i < menuItems.length; i++) {
-    menuItems[i].classList.remove('active');
-  }
-  menuItems[index].classList.add('active');
-}
