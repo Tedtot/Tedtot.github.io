@@ -31,16 +31,6 @@
   display: inline-block; 
 }
 
-#trashBin:hover {
-  content: url("Tedtot.github.io/garbagecanopen.png");
-}
-#recycleBin:hover {
-  content: url("Tedtot.github.io/garbagecanopen.png");
-}
-#compostBin:hover {
-  content: url("Tedtot.github.io/garbagecanopen.png");
-}
-
 body {
   cursor: default;
   background-color: #f5f5f5;
